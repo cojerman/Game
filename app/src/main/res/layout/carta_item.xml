@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="137dp"
+    android:layout_height="230dp"
+    android:background="@drawable/fondocarta">
+
+    <Button
+        android:id="@+id/caracteristicas"
+        android:layout_width="129dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/fondocarta"
+        android:fontFamily="@font/well"
+        android:text="Características"
+        android:textColor="@color/blanco"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenCelu" />
+
+    <ImageView
+        android:id="@+id/imagenCelu"
+        android:layout_width="95dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomCelu"
+        app:srcCompat="@drawable/no_celu" />
+
+    <TextView
+        android:id="@+id/nomCelu"
+        android:layout_width="103dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="28dp"
+        android:background="#50161B"
+        android:fontFamily="@font/well"
+        android:padding="5dp"
+        android:text="Sin Celular"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
